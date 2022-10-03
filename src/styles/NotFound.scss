@@ -1,0 +1,25 @@
+@import 'variables';
+
+*{
+    color: $primary-color;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.notFound{
+margin: auto;
+font-weight: 700;
+font-size: 288px;
+}
+
+.oups{
+font-size: 36px;
+}
+
+.retour{
+font-size: 18px;
+text-decoration: underline;
+}

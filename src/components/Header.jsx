@@ -1,5 +1,6 @@
 import logo from "../data/logo.svg";
 import "../styles/header.scss"
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -7,8 +8,8 @@ const Header = () => {
       <img src={logo} alt="logo Kasa"></img>
       <nav className="nav">
       <ul>
-        <li className="accueil">Accueil</li>
-        <li className="apropos">A Propos</li>
+        <Link to="/"><li>Accueil</li></Link>
+        <Link to="/a-propos"><li>A Propos</li></Link>
       </ul>
       </nav>
     </header>
