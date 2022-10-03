@@ -7,7 +7,7 @@ return(
     {data.map((d)=>(
     <div className="card" key={d.id}>
         <img className="card_img" src={d.cover} alt="hébergement"></img>
-        <p>{d.title}</p>
+        <p className="title">{d.title}</p>
     </div>
     ))}
 </section>

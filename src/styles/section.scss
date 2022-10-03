@@ -2,16 +2,26 @@
     background: #F7F7F7;
     border-radius: 25px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top:20px; ;
 }
 .card{
     width: 340px;
     height: 340px;
+    margin: 25px;
+    position: relative;
 }
 .card_img{
     width: 340px;
     height: 340px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.title{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
 }
