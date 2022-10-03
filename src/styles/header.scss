@@ -3,11 +3,10 @@
 .App-header{
     display: flex;
     justify-content: space-between;
-    position: relative;
-    width: 1240px;
-    height: 68px;
-    left: 100px;
-    top: 40px;
+    margin: auto;
+    margin-top: 40px;
+    width:1240px;
+    height:68px
 }
 .nav{
     width:309px

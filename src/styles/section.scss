@@ -1,0 +1,17 @@
+.section{
+    background: #F7F7F7;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width: 340px;
+    height: 340px;
+}
+.card_img{
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 10px;
+}
