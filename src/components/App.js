@@ -5,6 +5,7 @@ import Section from "./section";
 import "../styles/app.scss"
 import Footer from "./footer";
 import NotFound from "./NotFound"
+import Propos from "./Propos"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Banner/>
       <Routes>
       <Route path="/accueil"element={<Section/>}/>
+      <Route path="/propos" element={<Propos/>}></Route>
       <Route path="*" element={<NotFound/>}></Route>
       </Routes>
       <Footer />
