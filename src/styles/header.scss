@@ -1,0 +1,29 @@
+@import 'variables.scss';
+
+.App-header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 1240px;
+    height: 68px;
+    left: 100px;
+    top: 40px;
+}
+.nav{
+    width:309px
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+li{
+    list-style: none;
+    font-size: 24px;
+    color: $primary-color;
+}
+.logo{
+    width: 210px;
+    height: 68px;
+}
+
