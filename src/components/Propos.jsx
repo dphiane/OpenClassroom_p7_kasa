@@ -1,33 +1,32 @@
+import Collapsible from "./collapsible";
+import '../styles/propos.scss'
+
 const Propos = () => {
   return (
     <div>
-      <div className="fiabilite">
-        <h2>Fiabilité</h2>
-        <p>
+      <Collapsible label="Fiabilité">
+        <p className="text">
           Les annonces postées sur Kasa garantissent une fiabilité totale. Les
           photos sont conformes aux logements, et toutes les informations sont
           régulièrement vérifiées par nos équipes.
         </p>
-      </div>
-      <div className="respect">
-        <h2>Respect</h2>
-        <p>
+      </Collapsible>
+      <Collapsible label="Respect">
+      <p className="text">
           La bienveillance fait partie des valeurs fondatrices de Kasa. Tout
           comportement discriminatoire ou de perturbation du voisinage
           entraînera une exclusion de notre plateforme.
         </p>
-      </div>
-      <div className="service">
-        <h2>Service</h2>
-        <p>
+      </Collapsible>
+      <Collapsible label="Service">
+      <p className="text">
           Nos équipes se tiennent à votre disposition pour vous fournir une
           expérience parfaite. N'hésitez pas à nous contacter si vous avez la
           moindre question.
         </p>
-      </div>
-      <div className="responsabilite">
-        <h2>Responsabilité</h2>
-        <p>
+      </Collapsible>
+      <Collapsible label="Sécurité">
+      <p className="text">
           La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que
           pour les voyageurs, chaque logement correspond aux critères de
           sécurité établis par nos services. En laissant une note aussi bien à
@@ -35,7 +34,7 @@ const Propos = () => {
           standards sont bien respectés. Nous organisons également des ateliers
           sur la sécurité domestique pour nos hôtes.
         </p>
-      </div>
+      </Collapsible>
     </div>
   );
 };

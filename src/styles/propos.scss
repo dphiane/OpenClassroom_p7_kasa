@@ -1,0 +1,28 @@
+@import "variables.scss";
+.collapsible {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  background-color: $tertiary-color;
+  width: 70%;
+}
+.toggle {
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: start;
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    border-radius: 5px;
+    margin:2%;
+}
