@@ -14,22 +14,28 @@ a{
     width:1240px;
     height:68px
 }
-.nav{
-    width:309px
-}
+
 ul{
     display: flex;
-    justify-content: space-between;
     padding: 0;
 }
 li{
     list-style: none;
-    font-size: 24px;
     color: $primary-color;
     text-decoration: none;
+    margin-left: 57px;
 }
 .logo{
-    width: 210px;
-    height: 68px;
+    width: 40%;
 }
 
+@media all and (max-width:1240px){
+
+.App-header{
+    width: 90%;
+}
+.li{
+    margin: 10px;
+}
+
+}

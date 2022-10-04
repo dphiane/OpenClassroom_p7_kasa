@@ -1,0 +1,29 @@
+.collapsible {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  background-color: #F7F7F7;
+  width: 70%;
+}
+
+.toggle {
+  background-color: #FF6060;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: start;
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  border-radius: 5px;
+  margin: 2%;
+}/*# sourceMappingURL=propos.css.map */

@@ -4,17 +4,19 @@ import { data } from "../data/logements.json";
 const Logement = () => {
     const {id} = useParams();
     console.log(id)
+    const queryString=window.location.search
+    console.log(queryString)
   return (
     <div className="logement">
-      <img src="" alt="photo du logement"></img>
+      <img src="" alt="logement"></img>
       <div>
-        <h1 className="title"></h1>
+        <p className="title"></p>
         <p className="location"></p>
         <div>
           <button className="tag"></button>
         </div>
         <p className="nom"></p>
-        <img className="profile" alt="photo de profil"></img>
+        <img className="profile" alt="profil"></img>
         <div className="stars"></div>
       </div>
       <div>
