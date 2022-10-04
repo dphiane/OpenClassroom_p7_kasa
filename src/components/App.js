@@ -1,6 +1,6 @@
 import {Route,Routes } from "react-router-dom";
 import Header from "./Header";
-import Banner from "./banner";
+import Banner from "./banner"
 import Section from "./section";
 import "../styles/app.scss"
 import Footer from "./footer";
@@ -13,8 +13,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Banner/>
       <Routes>
+      <Route path="/accueil" element={<Banner/>}></Route>
       <Route path="/accueil"element={<Section/>}/>
       <Route path="/propos" element={<Propos/>}></Route>
       <Route path="*" element={<NotFound/>}></Route>
