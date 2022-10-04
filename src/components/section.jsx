@@ -7,7 +7,7 @@ return(
 
 <section className="section">
     {data.map((d)=>(
-    <Link to={d.id}><div className="card" key={d.id}>
+    <Link to={d.id} key={d.id}><div className="card" >
         <img className="card_img" src={d.cover} alt="hébergement"></img>
         <p className="title">{d.title}</p>
     </div></Link>
