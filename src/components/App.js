@@ -14,8 +14,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-      <Route path="/accueil" element={<Banner/>}></Route>
-      <Route path="/accueil"element={<Section/>}/>
+      <Route path="/accueil"element={[<Banner/>,<Section/>]}/>
       <Route path="/propos" element={<Propos/>}></Route>
       <Route path="*" element={<NotFound/>}></Route>
       <Route path="/:id" element={<Logement/>}></Route>
