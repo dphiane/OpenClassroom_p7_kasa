@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import '../styles/carousel.scss'
-import prev from "../data/arrow_backward.svg"
-import next from '../data/arrow_forward.svg'
+import {ReactComponent as Prev} from "../data/Vectorleft.svg"
+import {ReactComponent as Next} from '../data/Vectorright.svg'
 
 const Slider=({slides})=>{
     const [current,setCurrent]=useState(0)
@@ -13,19 +13,14 @@ const Slider=({slides})=>{
         setCurrent(current === 0 ? length - 1: current - 1)
     }
     return(
-        <div>
-        <button className="left-arrow"
-        onClick={prevSlide}>{prev}</button>
-
-        <button className="right-arrow"
-          onClick={nextSlide}
-        >{next}</button>
-
+        <div className='img_container'>
+        {<Prev className="prev" onClick={prevSlide}/>}
+        {<Next className="next" onClick={nextSlide}/>}
         {slides.map((slide, index) => {
           return (
-            <div key={index}>
+            <div className='carousel_inner' key={index}>
               {index === current && (
-                <img src={slide} alt=""></img>
+                <img className='img_slide'src={slide} alt="logement"></img>
               )}
             </div>
           );
