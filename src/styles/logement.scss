@@ -1,3 +1,4 @@
+@import "variables.scss";
 .logement{
     max-width: 1240px;
     width: 100%;
@@ -21,7 +22,6 @@
 .equipement{
     display: flex;
     flex-direction: column;
-
 }
 .wrapper{
     width: 50%;
@@ -29,4 +29,39 @@
 .list{
     margin-left:10px;
     list-style: none;
+}
+.content{
+    border-radius: 10px;
+}
+.description{
+    margin-left:10px;
+}
+
+.bloc_info{
+    display: flex;
+    flex-direction: column;
+}
+.tag{
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: $primary-color;
+    color: white;
+    width: 115px;
+    line-height: 20px;
+}
+.bloc_owner{
+    display: flex;
+    justify-content: baseline;
+}
+.profile{
+    margin: 10px;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+.nom_owner{
+    word-wrap: break-word;
+    overflow-wrap:break-word;
+    text-align: right;
 }

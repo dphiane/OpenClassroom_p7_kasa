@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../styles/collapsible.scss"
 
 function Collapsible(props){
     const [isOpen,setIsOpen]=useState(false)

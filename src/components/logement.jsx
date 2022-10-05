@@ -13,27 +13,38 @@ const Logement = () => {
     <div className="logement">
       <img src={appartement.cover} className="cover" alt="logement"></img>
       <div className="bloc">
-        <p className="title">{appartement.title}</p>
-        <p className="location">{appartement.location}</p>
-        <div>
-          <button className="tag">{appartement.tags}</button>
+        <div className="bloc_info">
+          <h1 className="title_logement">{appartement.title}</h1>
+          <h2 className="location">{appartement.location}</h2>
+          <div>
+            {appartement.tags.map((e, index) => (
+              <button className="tag" key={index}>
+                {e}
+              </button>
+            ))}
+          </div>
         </div>
-        <p className="nom">{appartement.host.name}</p>
-        <img
-          className="profile"
-          alt="profil"
-          src={appartement.host.picture}
-        ></img>
-        <div className="stars">{appartement.rating}</div>
+        <div className="bloc_owner">
+          <p className="nom_owner">{appartement.host.name}</p>
+          <img
+            className="profile"
+            alt="profil"
+            src={appartement.host.picture}
+          ></img>
+          </div>
+          <div className="stars">{appartement.rating}</div>
+        
       </div>
       <div className="bloc_2">
         <Collapsible label="Description">
-          <p className="descrition">{appartement.description}</p>
+          <p className="description">{appartement.description}</p>
         </Collapsible>
-        <Collapsible label="Equipments">
+        <Collapsible label="Equipements">
           <ul className="equipement">
             {appartement.equipments.map((e, index) => (
-              <li key={index} className="list">{e}</li>
+              <li key={index} className="list">
+                {e}
+              </li>
             ))}
           </ul>
         </Collapsible>

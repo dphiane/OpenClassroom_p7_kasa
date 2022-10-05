@@ -3,7 +3,7 @@ import '../styles/propos.scss'
 import propos from'../data/propos.jpg'
 const Propos = () => {
   return (
-    <div>
+    <div className="body">
       <div className="propos"><img className="propos_img" src={propos} alt='paysage montagne'></img></div>
       <Collapsible label="Fiabilité">
         <p className="text">
