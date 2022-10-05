@@ -2,16 +2,18 @@ import { useParams } from "react-router-dom";
 import data from "../data/logements.json";
 import Collapsible from "./collapsible";
 import "../styles/logement.scss";
+import Slider from "./Carousel";
+
 
 const Logement = () => {
   const { id } = useParams();
-  console.log(id);
+
   const appartement = data.find((obj) => {
     return obj.id === id;
   });
   return (
     <div className="logement">
-      <img src={appartement.cover} className="cover" alt="logement"></img>
+      {<Slider slides={appartement.pictures}/>} 
       <div className="bloc">
         <div className="bloc_info">
           <h1 className="title_logement">{appartement.title}</h1>
