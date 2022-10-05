@@ -38,10 +38,10 @@ const Logement = () => {
         
       </div>
       <div className="bloc_2">
-        <Collapsible label="Description">
+        <Collapsible  label="Description">
           <p className="description">{appartement.description}</p>
         </Collapsible>
-        <Collapsible label="Equipements">
+        <Collapsible  label="Equipements">
           <ul className="equipement">
             {appartement.equipments.map((e, index) => (
               <li key={index} className="list">

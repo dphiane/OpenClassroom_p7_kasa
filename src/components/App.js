@@ -7,7 +7,7 @@ import Footer from "./footer";
 import NotFound from "./NotFound"
 import Propos from "./Propos"
 import Logement from "./logement"
-import Slider from "./Carousel";
+
 
 function App() {
   return (
