@@ -7,14 +7,14 @@ import Footer from "./footer";
 import NotFound from "./NotFound"
 import Propos from "./Propos"
 import Logement from "./logement"
-import data from "../data/logements.json"
+
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Routes>
-      <Route path="/accueil"element={[<Banner/>,<Section/>]}/>
+      <Route path="/"element={<><Banner/><Section/></>}/>
       <Route path="/propos" element={<Propos/>}></Route>
       <Route path="*" element={<NotFound/>}></Route>
       <Route path="/:id" element={<Logement/>}></Route>

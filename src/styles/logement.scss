@@ -1,0 +1,32 @@
+.logement{
+    max-width: 1240px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+.cover{
+    overflow: hidden;
+    object-fit: cover;
+    max-height:415px;
+    width: 100%;
+}
+.bloc{
+    display: flex;
+    justify-content: space-between;
+}
+.bloc_2{
+    display: flex;
+    align-items: baseline;
+}
+.equipement{
+    display: flex;
+    flex-direction: column;
+
+}
+.wrapper{
+    width: 50%;
+}
+.list{
+    margin-left:10px;
+    list-style: none;
+}
