@@ -1,15 +1,18 @@
 footer{
+    align-items: flex-end;
+}
+.footer{
     background-color: #000000;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 1440px;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .footer_text{
     color: white;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .footer_logo{

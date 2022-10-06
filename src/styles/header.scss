@@ -14,25 +14,25 @@ a{
     width:1240px;
     height:68px
 }
-
+.nav{
+    width: 30%;
+}
 ul{
     display: flex;
+    justify-content: space-around;
     padding: 0;
 }
 .nav_li{
     list-style: none;
-    color: $primary-color;
-    text-decoration: none;
-    margin-left: 57px;
-}
-.logo{
-    width: 40%;
+    color: $primary-color; 
+    margin-left:5%;
+    white-space: nowrap;
 }
 
 @media all and (max-width:1240px){
 
 .App-header{
-    width: 90%;
+    width: 100%;
 }
 .li{
     margin: 10px;

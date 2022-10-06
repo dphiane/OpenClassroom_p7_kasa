@@ -3,23 +3,45 @@
 *{
     color: $primary-color;
 }
-.wrapper{
+.wrapper_not_found{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
 }
 .notFound{
-margin: auto;
-font-weight: 700;
-font-size: 288px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
-
+.not_found_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-align: center;
+    font-size: 288px;
+    margin-top: 10%;
+    margin-bottom: 0;
+}
 .oups{
-font-size: 36px;
+    text-align: center;
+    font-size: 36px;
 }
-
 .retour{
-font-size: 18px;
-text-decoration: underline;
+    text-align: center;
+    text-decoration:underline;
+    margin: 10%;
+}
+@media all and (max-width:1240px){
+.not_found_text{
+    font-size: 96px;
+}
+.oups{
+    font-size: 18px;
+}
+.retour{
+    font-size: 14px;
+}
 }

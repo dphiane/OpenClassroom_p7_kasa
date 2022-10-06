@@ -5,12 +5,13 @@ import "../styles/logement.scss";
 import Slider from "./Carousel";
 
 
+
 const Logement = () => {
   const { id } = useParams();
-
   const appartement = data.find((obj) => {
     return obj.id === id;
   });
+
   return (
     <div className="logement">
       {<Slider slides={appartement.pictures}/>} 
@@ -18,6 +19,7 @@ const Logement = () => {
         <div className="bloc_info">
           <h1 className="title_logement">{appartement.title}</h1>
           <h2 className="location">{appartement.location}</h2>
+          
           <div>
             {appartement.tags.map((e, index) => (
               <button className="tag" key={index}>
@@ -26,18 +28,21 @@ const Logement = () => {
             ))}
           </div>
         </div>
-        <div className="bloc_owner">
-          <p className="nom_owner">{appartement.host.name}</p>
+        <div className="proprietaire">
+        <div className="proprietaire_info">
+          <p className="proprietaire_nom">{appartement.host.name}</p>
           <img
-            className="profile"
+            className="photo_profile"
             alt="profil"
             src={appartement.host.picture}
           ></img>
           </div>
-          <div className="stars">{appartement.rating}</div>
-        
+          <div className="proprietaire_note">
+              <p>{appartement.rating}</p>
+          </div>  
+          </div>   
       </div>
-      <div className="bloc_2">
+      <div className="bloc_description_equipement">
         <Collapsible  label="Description">
           <p className="description">{appartement.description}</p>
         </Collapsible>
