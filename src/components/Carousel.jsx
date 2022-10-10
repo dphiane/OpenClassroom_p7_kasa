@@ -12,10 +12,17 @@ const Slider=({slides})=>{
     const prevSlide=()=>{
         setCurrent(current === 0 ? length - 1: current - 1)
     }
+    function showHide(props){
+      if (length>1){
+        return props
+      }else{
+        return null
+      }
+    }
     return(
         <div className='img_container'>
-        {<Prev className="prev" onClick={prevSlide}/>}
-        {<Next className="next" onClick={nextSlide}/>}
+        {showHide(<Prev className="prev" onClick={prevSlide}/>)}
+        {showHide(<Next className="next" onClick={nextSlide}/>)}
         {slides.map((slide, index) => {
           return (
             <div className='carousel_inner' key={index}>

@@ -62,17 +62,20 @@ border-radius: 10px;
 }
 .proprietaire_info{
     display: flex;
-    justify-content: baseline;
+    align-items: center;
+    justify-content: flex-end;
+
 }
 .photo_profile{
-    margin: 10px;
     border-radius: 50%;
     width: 64px;
     height: 64px;
+    margin-left: 10px;
 }
 .proprietaire_nom{
-    word-wrap: break-word;
-    text-align: end;
+    display: flex;
+    text-align: right;
+    width: 40%;
 }
 .title_logement{
     font-size: 36px;
