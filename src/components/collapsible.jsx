@@ -7,7 +7,7 @@ function Collapsible(props){
     const [isOpen,setIsOpen]=useState(false)
     return(
         <div className="wrapper">
-       <div className="collapsible">
+       <div className="collapsible collasible_logement">
         <button className="toggle" onClick={()=>setIsOpen(!isOpen)}>
             {props.label}{(isOpen ? <Up className="arrow_up_down"/>: <Down className="arrow_up_down"/>)}
         </button>

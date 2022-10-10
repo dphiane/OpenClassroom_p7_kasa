@@ -18,10 +18,12 @@
 .bloc_description_equipement{
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
-.wrapper{
-    width: 50%;
+.bloc_description_equipement .wrapper{
+justify-content: space-between;
 }
+
 .collapsible{
 border-radius: 10px;
 }
@@ -46,7 +48,7 @@ border-radius: 10px;
     flex-direction: column;
 }
 .tag{
-    margin: 10px;
+    margin-right: 10px;
     border: none;
     border-radius: 10px;
     background-color: $primary-color;
@@ -77,6 +79,11 @@ border-radius: 10px;
 }
 .location{
     font-size: 24px;
+}
+
+.collasible_logement{
+width: 90%;
+
 }
 @media all and (max-width:768px){
 .proprietaire{

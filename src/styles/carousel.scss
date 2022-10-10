@@ -24,4 +24,11 @@
     overflow: hidden;
     width: 100%;
     height: 100%;
+    border-radius: 25px;
+}
+
+@media all and (max-width:768px){
+.img_slide{
+    border-radius: 10px;
+}
 }

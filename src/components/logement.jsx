@@ -3,7 +3,7 @@ import data from "../data/logements.json";
 import Collapsible from "./collapsible";
 import "../styles/logement.scss";
 import Slider from "./Carousel";
-
+import Stars from "./stars";
 
 
 const Logement = () => {
@@ -38,7 +38,8 @@ const Logement = () => {
           ></img>
           </div>
           <div className="proprietaire_note">
-              <p>{appartement.rating}</p>
+                   
+              <Stars scaleRating={appartement.rating}></Stars>
           </div>  
           </div>   
       </div>

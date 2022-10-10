@@ -13,7 +13,9 @@ function App() {
   return (
     <div className="App">
       <Header />
+
       <Routes>
+
         <Route path="/accueil"element={<><Banner/><Section/></>}/>
         <Route path="/propos" element={<Propos/>}></Route>
         <Route path="*" element={<NotFound/>}></Route>
