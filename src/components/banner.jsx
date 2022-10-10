@@ -1,5 +1,5 @@
-import "../styles/banner.scss";
-import banner from "../data/banner.png";
+import "../styles/layout/banner.scss"
+import banner from "../data/assets/banner.png";
 
 const Banner = () => {
   return (

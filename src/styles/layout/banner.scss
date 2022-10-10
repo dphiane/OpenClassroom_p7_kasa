@@ -1,0 +1,26 @@
+.banner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+ }
+ .banner_img{
+     border-radius: 25px;
+     object-fit: cover;
+     object-position: center;
+     width: 100%;
+     min-width: 335px;
+     max-width: 1240px;
+     max-height: 223px;
+     min-height: 111px;
+     filter: brightness(70%);
+ }
+ .banner_text{
+     color: white;
+     font-size: 4vw;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 70%;
+ }
+ 

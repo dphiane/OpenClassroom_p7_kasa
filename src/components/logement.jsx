@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
 import data from "../data/logements.json";
 import Collapsible from "./collapsible";
-import "../styles/logement.scss";
 import Slider from "./Carousel";
 import Stars from "./stars";
 

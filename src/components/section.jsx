@@ -1,4 +1,3 @@
-import "../styles/section.scss"
 import data from '../data/logements.json'
 import { Link } from "react-router-dom"
 

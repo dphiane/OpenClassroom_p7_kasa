@@ -1,4 +1,4 @@
-import '../styles/NotFound.scss'
+
 import { Link } from 'react-router-dom'
 const NotFound=()=>{
     return(

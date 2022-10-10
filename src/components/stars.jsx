@@ -1,7 +1,5 @@
-import {ReactComponent as GrayStars} from "../data/gray_stars.svg";
-import { ReactComponent as PinkStars } from "../data/stars.svg";
-
-import "../styles/stars.scss"
+import {ReactComponent as GrayStars} from "../data/icon/gray_stars.svg";
+import { ReactComponent as PinkStars } from "../data/icon/stars.svg";
 
 const Stars= (props) => {
 const scaleRating=props.scaleRating
