@@ -2,6 +2,7 @@
 .logement{
     max-width: 1240px;
     width: 100%;
+    margin: 20px
 }
 .cover{
     overflow: hidden;
@@ -12,15 +13,16 @@
 .bloc{
     display: flex;
     justify-content: space-between;
-    margin-top: 2%;
+    margin:20px
 }
 .bloc_description_equipement{
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    margin: 20px;
 }
-.bloc_description_equipement .wrapper{
-justify-content: space-between;
+.bloc_description,.bloc_equipement{
+    width: 45%;
 }
 
 .collapsible{
@@ -88,20 +90,10 @@ border-radius: 10px;
     font-size: 1.2em;
 }
 
-.collasible_logement{
-width: 90%;
-
-}
-@media all and (max-width:1240px){
-
-    .bloc_info{
-        margin: 20px;
-    }
+@media all and (max-width:768px){
 .proprietaire{
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 .bloc{
     flex-direction: column;
@@ -111,9 +103,7 @@ width: 90%;
     justify-content: center;
     align-items: center;
 }
-.img_container{
-    margin-left: 20px;
-    margin-right: 20px;
+.bloc_description, .bloc_equipement{
+    width: 100%;
 }
-
 }

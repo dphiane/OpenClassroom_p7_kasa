@@ -28,11 +28,16 @@ const Slider=({slides})=>{
             <div className='carousel_inner' key={index}>
               {index === current && (
                 <img className='img_slide'src={slide} alt="logement"></img>
-              )}
+              )
+              }
+              <div className='index'>{current+1}/{index+1}</div>
+              
             </div>
           );
         })}
+        
         </div>
+        
     );
   };
   

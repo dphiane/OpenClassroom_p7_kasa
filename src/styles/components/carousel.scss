@@ -3,6 +3,8 @@
     max-width: 1240px;
     max-height: 415px;
     display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .prev{
     position: absolute;
@@ -32,7 +34,17 @@
     height: 100%;
     border-radius: 25px;
 }
-
+.index{
+    object-fit: cover;
+    overflow: hidden;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    color: white;
+    width: 40px;
+    
+    
+}
 @media all and (max-width:768px){
 .img_slide{
     border-radius: 10px;

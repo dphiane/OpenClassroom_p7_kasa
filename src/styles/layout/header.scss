@@ -13,22 +13,21 @@
     max-height: 68px;
     min-width: 145px;
     min-height: 47px;
-    width: 30%;
+    width: 40%;
 }
 .nav{
-    min-width: 140px;
-    min-height: 17px;
-    max-width: 309px;
-    max-height: 34px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
 .nav ul{
     display: flex;
 }
 .nav_li{
-    padding-left: 20px;
     list-style: none;
     color:$primary_color;
     white-space: nowrap;
+    margin-left: 50px;
 }
 a{
     text-decoration: none;

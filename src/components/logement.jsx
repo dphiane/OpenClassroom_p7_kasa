@@ -44,9 +44,12 @@ const Logement = () => {
           </div>   
       </div>
       <div className="bloc_description_equipement">
+        <div className="bloc_description">
         <Collapsible  label="Description">
           <p className="description">{appartement.description}</p>
         </Collapsible>
+        </div>
+        <div className="bloc_equipement">
         <Collapsible  label="Equipements">
           <ul className="equipement">
             {appartement.equipments.map((e, index) => (
@@ -56,6 +59,7 @@ const Logement = () => {
             ))}
           </ul>
         </Collapsible>
+        </div>
       </div>
     </div>
   );
