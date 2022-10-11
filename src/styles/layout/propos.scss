@@ -1,0 +1,26 @@
+.text{
+    margin:2%;
+}
+.propos{
+  max-width: 1240px;
+  margin: 5%;
+}
+.propos_img{
+  border-radius: 25px;
+  object-fit: cover;
+  max-width: 1240px;
+  width: 100%;
+}
+
+.body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+@media all and (max-width:760px){
+.propos_img{
+  width: 337px;
+  height: 224px;
+}
+}

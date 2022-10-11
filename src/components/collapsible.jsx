@@ -1,6 +1,7 @@
 import { useState } from "react";
 import{ReactComponent as Up}from "../data/icon/up.svg"
 import{ReactComponent as Down} from "../data/icon/down.svg"
+import "../styles/components/collapsible.scss"
 
 function Collapsible(props){
     const [isOpen,setIsOpen]=useState(false)

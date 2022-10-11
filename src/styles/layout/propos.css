@@ -1,0 +1,23 @@
+.text {
+  margin: 2%;
+}
+
+.propos {
+  max-width: 1240px;
+  margin: 5%;
+}
+
+.propos_img {
+  border-radius: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 1240px;
+  width: 100%;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=propos.css.map */

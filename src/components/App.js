@@ -1,25 +1,24 @@
 import {Route,Routes } from "react-router-dom";
 import Header from "./Header";
 import Banner from "./banner"
-import Section from "./section";
-import "../styles/app.scss"
 import Footer from "./footer";
 import NotFound from "./NotFound"
 import Propos from "./Propos"
-import Logement from "./logement"
-
+import Logement from "./logement";
+import "../styles/layout/app.scss";
+import Gallery from "./gallery";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/accueil"element={<><Banner/><Section/></>}/>
-        <Route path="/propos" element={<Propos/>}></Route>
-        <Route path="/accueil/:id" element={<Logement/>}></Route>
-      </Routes>
-      <Routes>
-      <Route path="*" element={<NotFound/>}></Route>
+        <Route path="/"element={<><Banner/><Gallery/></>}/>
+        <Route path="/propos" element={<Propos/>}/>
+        <Route path="/logement/:id" element={<Logement/>}></Route>
+        <Route path="*" element={<NotFound/>}/>
+  
+      
       </Routes>
       <Footer />
     </div>

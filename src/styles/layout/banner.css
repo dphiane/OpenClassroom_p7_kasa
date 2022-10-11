@@ -1,0 +1,29 @@
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+
+.banner_img {
+  border-radius: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+  min-width: 335px;
+  max-width: 1240px;
+  max-height: 223px;
+  min-height: 111px;
+  filter: brightness(70%);
+}
+
+.banner_text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}/*# sourceMappingURL=banner.css.map */

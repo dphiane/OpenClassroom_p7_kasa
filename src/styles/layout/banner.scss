@@ -2,6 +2,7 @@
     position: relative;
     display: flex;
     justify-content: center;
+    margin-bottom: 3%;
  }
  .banner_img{
      border-radius: 25px;
@@ -16,7 +17,6 @@
  }
  .banner_text{
      color: white;
-     font-size: 4vw;
      position: absolute;
      top: 50%;
      left: 50%;

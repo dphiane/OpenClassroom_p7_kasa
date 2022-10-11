@@ -3,6 +3,7 @@ import data from "../data/logements.json";
 import Collapsible from "./collapsible";
 import Slider from "./Carousel";
 import Stars from "./stars";
+import "../styles/layout/logement.scss"
 
 
 const Logement = () => {

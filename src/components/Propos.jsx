@@ -1,5 +1,7 @@
 import Collapsible from "./collapsible";
 import propos from'../data/assets/propos.jpg'
+import "../styles/layout/propos.scss"
+
 const Propos = () => {
   return (
     <div className="body">

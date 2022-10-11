@@ -1,0 +1,45 @@
+.gallery {
+  background: #F7F7F7;
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1240px;
+}
+
+.card {
+  max-width: 340px;
+  max-height: 340px;
+  margin: 25px;
+  position: relative;
+}
+
+.card_img {
+  width: 340px;
+  height: 340px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.title {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+
+@media all and (max-width: 768px) {
+  .gallery {
+    background-color: white;
+  }
+  .card {
+    width: 335px;
+    height: 255px;
+    margin: 10px;
+  }
+  .card_img {
+    width: 335px;
+    height: 255px;
+  }
+}/*# sourceMappingURL=gallery.css.map */

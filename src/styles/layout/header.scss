@@ -1,0 +1,39 @@
+@import "../abstracts/variables.scss";
+.container_header{
+    max-width: 1240px;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.logo{
+    max-width: 210px;
+    max-height: 68px;
+    min-width: 145px;
+    min-height: 47px;
+    width: 30%;
+}
+.nav{
+    min-width: 140px;
+    min-height: 17px;
+    max-width: 309px;
+    max-height: 34px;
+}
+.nav ul{
+    display: flex;
+}
+.nav_li{
+    padding-left: 20px;
+    list-style: none;
+    color:$primary_color;
+    white-space: nowrap;
+}
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+        color:$primary_color
+    }
+}

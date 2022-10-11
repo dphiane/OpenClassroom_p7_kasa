@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import {ReactComponent as Prev} from "../data/icon/Vectorleft.svg"
 import {ReactComponent as Next} from '../data/icon/Vectorright.svg'
+import "../styles/components/carousel.scss"
 
 const Slider=({slides})=>{
     const [current,setCurrent]=useState(0)
