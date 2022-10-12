@@ -8,6 +8,8 @@ import Logement from "./logement";
 import Gallery from "./gallery";
 import "../styles/layout/app.scss";
 import "../styles/abstracts/font.scss"
+import data from '../data/logements.json'
+
 
 
 function App() {
@@ -20,8 +22,6 @@ function App() {
         <Route path="/logement/:id" element={<Logement/>}></Route>
         <Route path="/logement/*" element={<NotFound/>}/>
         <Route path="*" element={<NotFound/>}/>
-  
-      
       </Routes>
       <Footer />
     </div>

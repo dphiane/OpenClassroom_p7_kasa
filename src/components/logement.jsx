@@ -21,7 +21,7 @@ const Logement = () => {
           <p className="location">{appartement.location}</p>
           
           <div>
-            {appartement.tags.map((e, index) => (
+          {appartement.tags.map((e, index) => (
               <button className="tag" key={index}>
                 {e}
               </button>
@@ -37,9 +37,8 @@ const Logement = () => {
             src={appartement.host.picture}
           ></img>
           </div>
-          <div className="proprietaire_note">
-                   
-              <Stars scaleRating={appartement.rating}></Stars>
+          <div className="proprietaire_note">      
+          <Stars scaleRating={appartement.rating}></Stars>
           </div>  
           </div>   
       </div>
