@@ -3,6 +3,7 @@
 }
 .propos{
   max-width: 1240px;
+  margin: 20px;
 }
 .propos_img{
   border-radius: 25px;
@@ -10,8 +11,14 @@
   max-width: 1240px;
   width: 100%;
 }
-
-.body{
+.body_propos{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.body_propos_collasible{
+  width: 90%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -19,12 +26,7 @@
 }
 @media all and (max-width:768px){
 .propos_img{
-  width: 337px;
-  height: 224px;
-}
-}
-@media all and (max-width:1240px){
-.propos{
-  margin:20px
+  min-width: 338px;
+  min-height: 225px;
 }
 }
