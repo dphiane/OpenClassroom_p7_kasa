@@ -29,9 +29,9 @@ const Slider = ({ slides }) => {
             {index === current && (
               <div className="carousel_inner">
                 <img className="img_slide" src={slide} alt="logement"></img>
-                <p className="index">
+                {showHide(<p className="index">
                   {current + 1}/{slides.length}
-                </p>
+                </p>)}
               </div>
             )}
           </div>
