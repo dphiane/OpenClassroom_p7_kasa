@@ -1,10 +1,16 @@
 .img_container{
-    position: relative;
+    border:solid 2px green;
+    overflow: hidden;
+    display: flex;
+    border-radius: 25px;
     max-width: 1240px;
     max-height: 415px;
-    display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
+    position: relative;
+    margin: 20px;
+}
+
+.carousel_inner{
+    
 }
 .prev{
     position: absolute;
@@ -28,25 +34,17 @@
 }
 
 .img_slide{
-    object-fit: cover;
-    overflow: hidden;
     width: 100%;
-    height: 100%;
-    border-radius: 25px;
 }
 .index{
-    object-fit: cover;
-    overflow: hidden;
     position: absolute;
     bottom: 20px;
     left: 50%;
     color: white;
     width: 40px;
-    
-    
 }
 @media all and (max-width:768px){
-.img_slide{
+.img_container{
     border-radius: 10px;
 }
 }
