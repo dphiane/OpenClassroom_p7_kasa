@@ -2,7 +2,7 @@
 .logement{
     max-width: 1240px;
     width: 100%;
-    margin: 20px
+    margin-top: 20px;
 }
 .cover{
     overflow: hidden;
@@ -13,13 +13,11 @@
 .bloc{
     display: flex;
     justify-content: space-between;
-    margin:20px
+    margin-top: 20px;
 }
 .bloc_description_equipement{
     display: flex;
-    align-items: baseline;
     justify-content: space-between;
-    margin: 20px;
 }
 .bloc_description,.bloc_equipement{
     width: 45%;
@@ -34,14 +32,11 @@ border-radius: 10px;
 .equipement{
     display: flex;
     flex-direction: column;
+    margin: 20px;
+    padding: 0;
 }
 .list{
-    margin-left:10px;
     list-style: none;
-}
-
-.description{
-    margin-left:10px;
 }
 
 .bloc_info{
@@ -50,6 +45,7 @@ border-radius: 10px;
 }
 .tag{
     margin-right: 10px;
+    margin-top: 10px;
     border: none;
     border-radius: 10px;
     background-color: $primary-color;
@@ -87,7 +83,7 @@ border-radius: 10px;
     margin: 0;
 }
 .location{
-    font-size: 1.2em;
+    margin-left: 0;
 }
 
 @media all and (max-width:768px){
@@ -106,4 +102,13 @@ border-radius: 10px;
 .bloc_description, .bloc_equipement{
     width: 100%;
 }
+}
+@media all and (max-width:1240px){
+.bloc,.bloc_description_equipement,.img_container{
+    margin: 20px;
+}
+.logement{
+    margin-top: 0;
+}
+
 }

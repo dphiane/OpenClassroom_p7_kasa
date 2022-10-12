@@ -2,7 +2,6 @@
 .collapsible {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-color: $tertiary-color;
     border-radius: 5px;
     margin-top: 15px;
@@ -11,7 +10,11 @@
     min-width: 335px;
     width: 100%;
   }
+
   .toggle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     background-color: $primary-color;
     color: white;
     border: none;
@@ -22,9 +25,6 @@
     position: relative;
   }
 
-.content{
-  height: 100%;
-}
 .arrow_up_down{
   position: absolute;
   right: 15px;

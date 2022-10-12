@@ -2,18 +2,18 @@
 .container_header{
     max-width: 1240px;
     width: 100%;
+    margin: 20px;
 }
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
 }
 .logo{
     max-width: 210px;
     max-height: 68px;
     min-width: 145px;
     min-height: 47px;
-    width: 40%;
+    width: 100%;
 }
 .nav{
     width: 50%;
@@ -22,6 +22,7 @@
 }
 .nav ul{
     display: flex;
+    align-items: center;
 }
 .nav_li{
     list-style: none;
@@ -35,4 +36,20 @@ a{
         text-decoration: underline;
         color:$primary_color
     }
+}
+@media all and (max-width:1240px){
+.header{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+}
+@media all and (max-width:768px){
+    .container_header{
+        margin-top:20px;
+        margin-bottom: 0;
+    }
+.nav_li{
+    margin-left: 20px;
+}
 }

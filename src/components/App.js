@@ -5,8 +5,10 @@ import Footer from "./footer";
 import NotFound from "./NotFound"
 import Propos from "./Propos"
 import Logement from "./logement";
-import "../styles/layout/app.scss";
 import Gallery from "./gallery";
+import "../styles/layout/app.scss";
+import "../styles/abstracts/font.scss"
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <Route path="/"element={<><Banner/><Gallery/></>}/>
         <Route path="/propos" element={<Propos/>}/>
         <Route path="/logement/:id" element={<Logement/>}></Route>
+        <Route path="/logement/*" element={<NotFound/>}/>
         <Route path="*" element={<NotFound/>}/>
   
       

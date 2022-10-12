@@ -3,7 +3,6 @@
 }
 .propos{
   max-width: 1240px;
-  margin: 5%;
 }
 .propos_img{
   border-radius: 25px;
@@ -22,5 +21,10 @@
 .propos_img{
   width: 337px;
   height: 224px;
+}
+}
+@media all and (max-width:1240px){
+.propos{
+  margin:20px
 }
 }

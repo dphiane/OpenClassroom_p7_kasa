@@ -18,7 +18,7 @@ const Logement = () => {
       <div className="bloc">
         <div className="bloc_info">
           <h1 className="title_logement">{appartement.title}</h1>
-          <h2 className="location">{appartement.location}</h2>
+          <p className="location">{appartement.location}</p>
           
           <div>
             {appartement.tags.map((e, index) => (
