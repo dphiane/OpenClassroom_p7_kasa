@@ -1,6 +1,7 @@
-import "../styles/layout/footer.scss"
+import "../styles/layout/footer.scss";
 import footer from "../data/icon/logo_footer.png";
 
+//composant footer 
 const Footer = () => {
   return (
     <footer>

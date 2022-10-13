@@ -11,8 +11,6 @@
 .logo{
     max-width: 210px;
     max-height: 68px;
-    min-width: 145px;
-    min-height: 47px;
     width: 100%;
 }
 .nav{
@@ -52,4 +50,9 @@ a{
 .nav_li{
     margin-left: 20px;
 }
+.logo{
+    width: 145px;
+    height: 47px;
+}
+
 }

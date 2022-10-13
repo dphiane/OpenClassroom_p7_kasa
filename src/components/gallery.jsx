@@ -2,6 +2,7 @@ import data from "../data/logements.json";
 import { Link } from "react-router-dom";
 import "../styles/layout/gallery.scss";
 
+// composant pour afficher la gallery des logements
 const Gallery = () => {
   return (
     <section className="gallery">

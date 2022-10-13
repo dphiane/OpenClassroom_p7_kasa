@@ -1,6 +1,7 @@
 import "../styles/layout/banner.scss";
 import banner from "../data/assets/banner.png";
 
+//composant Bannière
 const Banner = () => {
   return (
     <div className="banner">

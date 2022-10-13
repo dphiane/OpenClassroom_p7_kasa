@@ -57,7 +57,7 @@ border-radius: 10px;
 .proprietaire{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 }
 .proprietaire_info{
     display: flex;
@@ -84,7 +84,7 @@ border-radius: 10px;
     margin: 0;
 }
 .location{
-    margin-left: 0;
+    margin: 10px 0 10px 0;
 }
 
 @media all and (max-width:768px){

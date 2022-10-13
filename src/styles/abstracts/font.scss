@@ -1,11 +1,13 @@
+@import "./variables.scss";
 *{
     font-size: calc(15px + 0.390625vw);
+    color: $primary-color;
 }
 h1{
     font-size: 36px;
 }
 p{
-    margin: 20px;
+    margin: 0;
 }
 ul{
     margin: 0;
