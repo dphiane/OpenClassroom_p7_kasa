@@ -1,0 +1,16 @@
+* {
+  font-size: calc(15px + 0.390625vw);
+  color: #FF6060;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}/*# sourceMappingURL=font.css.map */

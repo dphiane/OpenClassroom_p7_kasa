@@ -25,6 +25,7 @@
 }
 .description{
     margin: 20px;
+    @include font-weight-light
 }
 
 .collapsible{
@@ -38,6 +39,7 @@ border-radius: 10px;
     flex-direction: column;
     margin: 20px;
     padding: 0;
+    @include font-weight-light
 }
 .list{
     list-style: none;

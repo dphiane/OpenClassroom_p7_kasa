@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  margin-bottom: 3%;
+  margin: 20px;
 }
 
 .banner_img {
@@ -22,8 +22,33 @@
 .banner_text {
   color: white;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 70%;
+  top: 40%;
+  font-size: 48px;
+}
+
+.text_break {
+  font-size: 48px;
+  color: white;
+}
+
+@media all and (max-width: 768px) {
+  .banner_img {
+    border-radius: 10px;
+  }
+  .banner {
+    margin-bottom: 0;
+  }
+  .banner_text {
+    font-size: 24px;
+    top: 30%;
+  }
+  .text_break {
+    display: flex;
+    font-size: 24px;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 1240px) {
+  .banner_text, .text_break {
+    font-size: 4vw;
+  }
 }/*# sourceMappingURL=banner.css.map */

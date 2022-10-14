@@ -1,5 +1,8 @@
+@import "../abstracts/variables.scss";
+
 .text{
-    margin:2%;
+    margin:20px;
+    @include font-weight-light
 }
 .propos{
   max-width: 1240px;

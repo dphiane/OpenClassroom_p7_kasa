@@ -3,4 +3,8 @@
   width: 4vw;
   min-width: 15px;
   max-width: 30px;
+}
+
+.stars_container {
+  display: flex;
 }/*# sourceMappingURL=stars.css.map */

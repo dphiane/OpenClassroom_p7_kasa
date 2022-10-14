@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams ,Navigate} from "react-router-dom";
 import data from "../data/logements.json";
 import Collapsible from "./collapsible";
 import Slider from "./Carousel";
@@ -15,7 +15,7 @@ const Logement = () => {
     return obj.id === id;
   });
   if (!appartement) {
-    return <NotFound />;
+    return <Navigate to="/404"/>
   } else {
     return (
       <div className="logement">

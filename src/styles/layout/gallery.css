@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   max-width: 1240px;
+  margin: 20px;
 }
 
 .card {

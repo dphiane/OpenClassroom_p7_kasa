@@ -1,3 +1,7 @@
 $primary-color:#FF6060;
 $secondary-color:#C4C4C4;
 $tertiary-color:#F7F7F7;
+
+@mixin font-weight-light{
+    font-weight: 400;
+}

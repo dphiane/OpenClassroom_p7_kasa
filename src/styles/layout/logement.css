@@ -1,6 +1,7 @@
 .logement {
   max-width: 1240px;
   width: 100%;
+  margin-top: 20px;
 }
 
 .cover {
@@ -14,17 +15,22 @@
 .bloc {
   display: flex;
   justify-content: space-between;
-  margin-top: 2%;
+  margin-top: 20px;
 }
 
 .bloc_description_equipement {
   display: flex;
-  align-items: baseline;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-.bloc_description_equipement .wrapper {
-  justify-content: space-between;
+.bloc_description, .bloc_equipement {
+  width: 45%;
+}
+
+.description {
+  margin: 20px;
+  font-weight: 400;
 }
 
 .collapsible {
@@ -38,15 +44,13 @@
 .equipement {
   display: flex;
   flex-direction: column;
+  margin: 20px;
+  padding: 0;
+  font-weight: 400;
 }
 
 .list {
-  margin-left: 10px;
   list-style: none;
-}
-
-.description {
-  margin-left: 10px;
 }
 
 .bloc_info {
@@ -56,6 +60,7 @@
 
 .tag {
   margin-right: 10px;
+  margin-top: 10px;
   border: none;
   border-radius: 10px;
   background-color: #FF6060;
@@ -67,7 +72,7 @@
 .proprietaire {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .proprietaire_info {
@@ -93,27 +98,19 @@
 }
 
 .title_logement {
-  font-size: 5vw;
+  font-size: 1.8em;
   margin: 0;
 }
 
 .location {
-  font-size: 4vw;
+  margin: 10px 0 10px 0;
+  font-weight: bold;
 }
 
-.collasible_logement {
-  width: 90%;
-}
-
-@media all and (max-width: 1240px) {
-  .bloc_info {
-    margin: 20px;
-  }
+@media all and (max-width: 768px) {
   .proprietaire {
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin-left: 20px;
-    margin-right: 20px;
   }
   .bloc {
     flex-direction: column;
@@ -123,8 +120,15 @@
     justify-content: center;
     align-items: center;
   }
-  .img_container {
-    margin-left: 20px;
-    margin-right: 20px;
+  .bloc_description, .bloc_equipement {
+    width: 100%;
+  }
+}
+@media all and (max-width: 1240px) {
+  .bloc, .bloc_description_equipement, .img_container {
+    margin: 20px;
+  }
+  .logement {
+    margin-top: 0;
   }
 }/*# sourceMappingURL=logement.css.map */
