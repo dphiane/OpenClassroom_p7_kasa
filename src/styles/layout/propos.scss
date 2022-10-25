@@ -15,17 +15,11 @@
   width: 100%;
 }
 .body_propos{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  @include flex_center
 }
 .body_propos_collasible{
   width: 90%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  @include flex_center;
 }
 @media all and (max-width:768px){
 .propos_img{

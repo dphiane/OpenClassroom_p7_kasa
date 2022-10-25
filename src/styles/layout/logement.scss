@@ -102,9 +102,7 @@ border-radius: 10px;
     flex-direction: column;
 }
 .bloc_description_equipement{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex_center;
 }
 .bloc_description, .bloc_equipement{
     width: 100%;

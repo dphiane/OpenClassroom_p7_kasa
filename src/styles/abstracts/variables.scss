@@ -5,3 +5,10 @@ $tertiary-color:#F7F7F7;
 @mixin font-weight-light{
     font-weight: 400;
 }
+
+@mixin flex_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

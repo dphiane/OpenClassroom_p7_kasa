@@ -4,7 +4,6 @@ import Collapsible from "./collapsible";
 import Slider from "./Carousel";
 import Stars from "./stars";
 import "../styles/layout/logement.scss";
-import NotFound from "./NotFound";
 
 
 // fonction d'import du logement en fonction id, si existe pas redirection 404

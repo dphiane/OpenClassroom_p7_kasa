@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./Header";
 import Banner from "./banner";
 import Footer from "./footer";
@@ -12,14 +12,22 @@ import "../styles/abstracts/font.scss";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Routes>
-        <Route path="/" element={<><Banner /><Gallery /></>}/>
-        <Route path="propos" element={<Propos />} />
-        <Route path={"logement/:id"} element={<Logement />}></Route>
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={
+              <>
+                <Banner />
+                <Gallery />
+              </>
+            }
+          />
+          <Route path="propos" element={<Propos />} />
+          <Route path="logement/:id" element={<Logement/>}/>
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
