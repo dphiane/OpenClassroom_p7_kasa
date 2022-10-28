@@ -5,7 +5,7 @@ import "../styles/components/carousel.scss";
 
 
 //composant pour le carrousel et imbrication des fonctions précédent et suivant + affichage nombre de photo
-const Slider = ({ slides }) => {
+const Carousel = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
   const nextSlide = () => {
@@ -46,4 +46,4 @@ const Slider = ({ slides }) => {
   );
 };
 
-export default Slider;
+export default Carousel;

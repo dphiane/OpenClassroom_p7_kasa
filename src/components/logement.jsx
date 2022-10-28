@@ -1,7 +1,7 @@
 import { useParams ,Navigate} from "react-router-dom";
 import data from "../data/logements.json";
 import Collapsible from "./collapsible";
-import Slider from "./Carousel";
+import Carousel from "./Carousel";
 import Stars from "./stars";
 import "../styles/layout/logement.scss";
 
@@ -18,7 +18,7 @@ const Logement = () => {
   } else {
     return (
       <div className="logement">
-        {<Slider slides={appartement.pictures} />}
+        {<Carousel slides={appartement.pictures} />}
         <div className="bloc">
           <div className="bloc_info">
             <h1 className="title_logement">{appartement.title}</h1>

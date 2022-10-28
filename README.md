@@ -1,5 +1,5 @@
 Pour installer le projet:
-npm install
+npm or yarn install
 
 Pour lancer le projet:
-npm start
+npm or yarn start
