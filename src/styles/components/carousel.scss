@@ -3,7 +3,7 @@
   display: flex;
   border-radius: 25px;
   max-width: 1240px;
-  max-height: 415px;
+  height: 415px;
   position: relative;
 }
 
@@ -49,5 +49,6 @@
 @media all and (max-width: 768px) {
   .img_container {
     border-radius: 10px;
+    height: 255px;
   }
 }
