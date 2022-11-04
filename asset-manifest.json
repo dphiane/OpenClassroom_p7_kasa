@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.77e6f6fe.css",
+    "main.js": "/react-gh-pages/static/js/main.d558cfc5.js",
+    "static/js/787.0ce615c0.chunk.js": "/react-gh-pages/static/js/787.0ce615c0.chunk.js",
+    "static/media/banner.png": "/react-gh-pages/static/media/banner.efc1935eb81fc5e585f9.png",
+    "static/media/propos.jpg": "/react-gh-pages/static/media/propos.434ba524c88681a7754d.jpg",
+    "static/media/logo.svg": "/react-gh-pages/static/media/logo.953d646c0e0bb6d69d138e112600468d.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "static/media/Vectorright.svg": "/react-gh-pages/static/media/Vectorright.fcd8131c4741f9116bc0ec56cc449b13.svg",
+    "static/media/down.svg": "/react-gh-pages/static/media/down.f2cfcc76f4ae2f55ee699fe243dba350.svg",
+    "static/media/Vectorleft.svg": "/react-gh-pages/static/media/Vectorleft.10a56405f7ff25b1792c6025af90ecbd.svg",
+    "static/media/up.svg": "/react-gh-pages/static/media/up.1f28c779bfb747047edbb4814270724a.svg",
+    "static/media/gray_stars.svg": "/react-gh-pages/static/media/gray_stars.7e4ba6032d7d80ecc30aa389973cef95.svg",
+    "static/media/stars.svg": "/react-gh-pages/static/media/stars.6430150c126a3adf92c132c52c9c7428.svg",
+    "main.77e6f6fe.css.map": "/react-gh-pages/static/css/main.77e6f6fe.css.map",
+    "main.d558cfc5.js.map": "/react-gh-pages/static/js/main.d558cfc5.js.map",
+    "787.0ce615c0.chunk.js.map": "/react-gh-pages/static/js/787.0ce615c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77e6f6fe.css",
+    "static/js/main.d558cfc5.js"
+  ]
+}
