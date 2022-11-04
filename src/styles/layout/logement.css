@@ -116,9 +116,10 @@
     flex-direction: column;
   }
   .bloc_description_equipement {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
   .bloc_description, .bloc_equipement {
     width: 100%;

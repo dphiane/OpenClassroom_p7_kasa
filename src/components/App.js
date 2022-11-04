@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={
+          <Route path="kasa" element={
               <>
                 <Banner />
                 <Gallery />
@@ -23,7 +23,7 @@ function App() {
             }
           />
           <Route path="propos" element={<Propos />} />
-          <Route path="logement/:id" element={<Logement/>}/>
+          <Route path="kasa/logement/:id" element={<Logement/>}/>
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
