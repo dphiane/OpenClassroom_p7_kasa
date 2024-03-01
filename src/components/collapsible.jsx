@@ -6,7 +6,7 @@ import "../styles/components/collapsible.scss";
 
 //composant pour ouvrir et fermer les blocs
 function Collapsible(props) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   return (
     <div className="collapsible">
       <button className="toggle" onClick={() => setIsOpen(!isOpen)}>
