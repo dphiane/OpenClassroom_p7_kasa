@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/kasa/static/css/main.77e6f6fe.css",
-    "main.js": "/kasa/static/js/main.e914b18b.js",
-    "static/js/787.0ce615c0.chunk.js": "/kasa/static/js/787.0ce615c0.chunk.js",
-    "static/media/banner.png": "/kasa/static/media/banner.efc1935eb81fc5e585f9.png",
-    "static/media/propos.jpg": "/kasa/static/media/propos.434ba524c88681a7754d.jpg",
-    "static/media/logo.svg": "/kasa/static/media/logo.953d646c0e0bb6d69d138e112600468d.svg",
-    "index.html": "/kasa/index.html",
-    "static/media/Vectorright.svg": "/kasa/static/media/Vectorright.fcd8131c4741f9116bc0ec56cc449b13.svg",
-    "static/media/down.svg": "/kasa/static/media/down.f2cfcc76f4ae2f55ee699fe243dba350.svg",
-    "static/media/Vectorleft.svg": "/kasa/static/media/Vectorleft.10a56405f7ff25b1792c6025af90ecbd.svg",
-    "static/media/up.svg": "/kasa/static/media/up.1f28c779bfb747047edbb4814270724a.svg",
-    "static/media/gray_stars.svg": "/kasa/static/media/gray_stars.7e4ba6032d7d80ecc30aa389973cef95.svg",
-    "static/media/stars.svg": "/kasa/static/media/stars.6430150c126a3adf92c132c52c9c7428.svg",
-    "main.77e6f6fe.css.map": "/kasa/static/css/main.77e6f6fe.css.map",
-    "main.e914b18b.js.map": "/kasa/static/js/main.e914b18b.js.map",
-    "787.0ce615c0.chunk.js.map": "/kasa/static/js/787.0ce615c0.chunk.js.map"
+    "main.css": "/OpenClassroom_p7_kasa/static/css/main.77e6f6fe.css",
+    "main.js": "/OpenClassroom_p7_kasa/static/js/main.804acfd1.js",
+    "static/js/787.0ce615c0.chunk.js": "/OpenClassroom_p7_kasa/static/js/787.0ce615c0.chunk.js",
+    "static/media/banner.png": "/OpenClassroom_p7_kasa/static/media/banner.efc1935eb81fc5e585f9.png",
+    "static/media/propos.jpg": "/OpenClassroom_p7_kasa/static/media/propos.434ba524c88681a7754d.jpg",
+    "static/media/logo.svg": "/OpenClassroom_p7_kasa/static/media/logo.953d646c0e0bb6d69d138e112600468d.svg",
+    "index.html": "/OpenClassroom_p7_kasa/index.html",
+    "static/media/Vectorright.svg": "/OpenClassroom_p7_kasa/static/media/Vectorright.fcd8131c4741f9116bc0ec56cc449b13.svg",
+    "static/media/down.svg": "/OpenClassroom_p7_kasa/static/media/down.f2cfcc76f4ae2f55ee699fe243dba350.svg",
+    "static/media/Vectorleft.svg": "/OpenClassroom_p7_kasa/static/media/Vectorleft.10a56405f7ff25b1792c6025af90ecbd.svg",
+    "static/media/up.svg": "/OpenClassroom_p7_kasa/static/media/up.1f28c779bfb747047edbb4814270724a.svg",
+    "static/media/gray_stars.svg": "/OpenClassroom_p7_kasa/static/media/gray_stars.7e4ba6032d7d80ecc30aa389973cef95.svg",
+    "static/media/stars.svg": "/OpenClassroom_p7_kasa/static/media/stars.6430150c126a3adf92c132c52c9c7428.svg",
+    "main.77e6f6fe.css.map": "/OpenClassroom_p7_kasa/static/css/main.77e6f6fe.css.map",
+    "main.804acfd1.js.map": "/OpenClassroom_p7_kasa/static/js/main.804acfd1.js.map",
+    "787.0ce615c0.chunk.js.map": "/OpenClassroom_p7_kasa/static/js/787.0ce615c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77e6f6fe.css",
-    "static/js/main.e914b18b.js"
+    "static/js/main.804acfd1.js"
   ]
 }
